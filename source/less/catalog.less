@@ -1,20 +1,24 @@
 .catalog__slogan {
-  font-family: "Oswald" , sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
   line-height: 36px;
   color: white;
+  position: absolute;
+  left: 36px;
+  top: 0px;
 }
 
 .catalog__description {
-  font-family: "Oswald" , sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 14px;
   color: white;
   text-transform: uppercase;
+  position: absolute;
+  left: 60px;
+  top: 110px;
 }
 
 .catalog__button {
@@ -22,8 +26,19 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 18px;
+  width: 280px;
+  height: 40px;
   color: white;
+  background-color: @green;
   text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  position: absolute;
+  left: 20px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .catalog__program-description {
@@ -56,7 +71,6 @@
 }
 
 .catalog__title {
-  font-family: "Oswald" , sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -65,7 +79,6 @@
 }
 
 .catalog__link {
-  font-family: "Oswald" , sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -74,4 +87,26 @@
   text-decoration: none;
 }
 
+.catalog__pesentation {
+  width: 320px;
+  height: 483px;
+  position: relative;
+}
 
+.catalog__cat {
+  background: url(../img/index-background-mobile@1x.jpg);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 305px;
+  position: absolute;
+}
+
+.catalog__catfood {
+  background: url(../img/index-can-mobile@1x.png);
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 270px;
+  position: absolute;
+  left: 20px;
+  bottom: 45px;
+}
